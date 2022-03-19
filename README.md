@@ -4,12 +4,15 @@ SCADA/MES система разработанная в г.Алматы.
 Разработчики - одноименная компания ТОО "Faceplate"
 Начало - когда-то для задач автоматизации.
 
-сайт: [Faceplate](https://faceplate.io/)
+сайт Faceplate: https://faceplate.io/ 
+форум: https://support.faceplate.io/ 
 
 написан на базе [[erlang]] с применением JS with KendoUI
-использует базу ecomet и dlss
+использует базу ecomet и dlss, mnesia
 	- [ecomet](https://github.com/vzroman/ecomet) - база данных написанная на erlang
 	- [DLSS](https://github.com/vzroman/dlss) is a distributed key-value storage for Erlang/OTP applications
+
+АВТОР: vzroman
 
 ## Применение Faceplate
 - АСКУЭ 
