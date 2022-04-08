@@ -8,6 +8,7 @@ Ctrt+F5 - очистка кэши
 запуск fp:
     желательно через tmux 
 \## для tmux
+tmux ls
 tmux new-session -s fp
 tmux a -t fp
 
