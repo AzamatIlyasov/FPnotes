@@ -114,6 +114,14 @@ sudo zfs set com.sun:auto-snapshot:daily=true,keep=10 poolFP/files
 sudo zfs set com.sun:auto-snapshot:daily=true,keep=10 poolFP/drts
 sudo zfs set com.sun:auto-snapshot:daily=true,keep=10 poolFP/radv
 
+sudo zfs set com.sun:auto-snapshot=false
+sudo zfs set com.sun:auto-snapshot=false poolFP/files
+sudo zfs set com.sun:auto-snapshot=false poolFP/drts
+sudo zfs set com.sun:auto-snapshot=false poolFP/radv
+
+sudo zfs destroy poolFP/drts -r
+
+
 \### проверка снапшотов
 sudo zfs list -t snapshot
 
